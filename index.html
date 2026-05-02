@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Bekkam Mallishwari</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">BM.</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="hero-text">
+      <div class="hero-greeting"><span class="greeting-dot"></span>Hello, I'm</div>
+      <h1 class="hero-name">Bekkam<br><em>Mallishwari</em></h1>
+      <p class="hero-role">B.Tech IT Student</p>
+      <p class="hero-desc">Passionate developer exploring software engineering, machine learning, and web development.
+        Building meaningful projects every day.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-outline">Let's Connect</a>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="oval-container">
+        <div class="oval-ring-outer">
+          <div class="ring-dot"></div>
+        </div>
+        <div class="oval-frame">
+          <!-- Replace with: <img src="photo.jpg" alt="Your Name"> -->
+          <img src="photo.jpg" alt="Bekkam Mallishwari" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
+        </div>
+        <div class="badge badge-1">
+          <span class="badge-icon">🎓</span>
+          <div class="badge-text"><span class="badge-val">B.Tech IT</span><span class="badge-sub">2024 – 2028</span>
+          </div>
+        </div>
+        <div class="badge badge-2">
+          <span class="badge-icon">🚀</span>
+          <div class="badge-text"><span class="badge-val">10+ Projects</span><span class="badge-sub">Built &amp;
+              Deployed</span></div>
+        </div>
+        <div class="badge badge-3">
+          <span class="badge-icon">💡</span>
+          <div class="badge-text"><span class="badge-val">Open Source</span><span class="badge-sub">Contributor</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal-left">
+        <div class="oval-sm">
+          <div class="oval-placeholder">
+            <span class="initials" style="font-size:3.5rem;">BM</span>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title">A curious mind<br>building the <em>future</em></h2>
+        <p>I'm a B.Tech IT student, passionate about solving real-world
+          problems through code. I love exploring new technologies and turning ideas into working products.</p>
+        <p>Outside academics, I enjoy contributing to open source, participating in hackathons, and learning about
+          system design and algorithms.</p>
+        <div class="about-stats">
+          <div><span class="stat-num">10+</span><span class="stat-label">Projects</span></div>
+          <div><span class="stat-num">5+</span><span class="stat-label">Hackathons</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="section-label reveal">Tech Stack</p>
+    <h2 class="section-title reveal">Skills &amp; <em>Technologies</em></h2>
+    <div class="skills-wrapper reveal">
+      <div class="skill-card"><span class="skill-icon">⚛️</span><span class="skill-name">React</span></div>
+      <div class="skill-card"><span class="skill-icon">🟨</span><span class="skill-name">JavaScript</span></div>
+      <div class="skill-card"><span class="skill-icon">🐍</span><span class="skill-name">Python</span></div>
+      <div class="skill-card"><span class="skill-icon">☕</span><span class="skill-name">Java</span></div>
+      <div class="skill-card"><span class="skill-icon">🟩</span><span class="skill-name">Node.js</span></div>
+      <div class="skill-card"><span class="skill-icon">🗄️</span><span class="skill-name">MySQL</span></div>
+      <div class="skill-card"><span class="skill-icon">🍃</span><span class="skill-name">MongoDB</span></div>
+      <div class="skill-card"><span class="skill-icon">🐳</span><span class="skill-name">Docker</span></div>
+      <div class="skill-card"><span class="skill-icon">🧠</span><span class="skill-name">ML/AI</span></div>
+      <div class="skill-card"><span class="skill-icon">🌐</span><span class="skill-name">HTML/CSS</span></div>
+      <div class="skill-card"><span class="skill-icon">🔷</span><span class="skill-name">TypeScript</span></div>
+      <div class="skill-card"><span class="skill-icon">🐙</span><span class="skill-name">Git</span></div>
+    </div>
+    <div class="skill-bars reveal">
+      <h3>Proficiency</h3>
+      <div class="bar-item">
+        <div class="bar-header"><span class="bar-name">Python</span><span class="bar-pct">85%</span></div>
+        <div class="bar-track">
+          <div class="bar-fill" data-width="85%"></div>
+        </div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-header"><span class="bar-name">JavaScript / React</span><span class="bar-pct">80%</span></div>
+        <div class="bar-track">
+          <div class="bar-fill" data-width="80%"></div>
+        </div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-header"><span class="bar-name">Java</span><span class="bar-pct">75%</span></div>
+        <div class="bar-track">
+          <div class="bar-fill" data-width="75%"></div>
+        </div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-header"><span class="bar-name">SQL / Databases</span><span class="bar-pct">70%</span></div>
+        <div class="bar-track">
+          <div class="bar-fill" data-width="70%"></div>
+        </div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-header"><span class="bar-name">ML / Deep Learning</span><span class="bar-pct">60%</span></div>
+        <div class="bar-track">
+          <div class="bar-fill" data-width="60%"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / TIMELINE -->
+  <section id="experience">
+    <p class="section-label reveal">My Journey</p>
+    <h2 class="section-title reveal">Education &amp; <em>Experience</em></h2>
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <span class="tl-badge">Current</span>
+        <p class="tl-date">Aug 2024 — Present</p>
+        <h3 class="tl-title">B.Tech in Information Technology</h3>
+        <p class="tl-org">Vignan Institute of Technology and Science, Hyderabad</p>
+        <p class="tl-desc">Pursuing a 2-year degree with focus on DSA, OS, DBMS, and ML. CGPA: 9.63/ 10</p>
+        <div class="tl-tags">
+          <span class="tl-tag">DSA</span><span class="tl-tag">OS</span>
+          <span class="tl-tag">DBMS</span><span class="tl-tag">Machine Learning</span>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <span class="tl-badge">Volunteer</span>
+        <p class="tl-date">Sep 2025 — Dec 2026</p>
+        <h3 class="tl-title">Technical Lead — Coding Club</h3>
+        <p class="tl-org">⌨️ Vignan Institute of Technology and Science Coding Club</p>
+        <p class="tl-desc">Led weekly competitive programming sessions for 60+ students. Organized hackathons.</p>
+        <div class="tl-tags">
+          <span class="tl-tag">Leadership</span><span class="tl-tag">DSA</span><span class="tl-tag">Teaching</span>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <span class="tl-badge">Education</span>
+        <p class="tl-date">2022 — 2024</p>
+        <h3 class="tl-title">Higher Secondary (Class XII)</h3>
+        <p class="tl-org">🏫 Akshara Junior College, Hyderabad</p>
+        <p class="tl-desc">MPC stream, 96.6%</p>
+        <div class="tl-tags">
+          <span class="tl-tag">Maths</span><span class="tl-tag">Physics</span><span class="tl-tag">Chemistry</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="projects-header">
+      <div>
+        <p class="section-label">My Work</p>
+        <h2 class="section-title">Featured <em>Projects</em></h2>
+      </div>
+      <a href="https://github.com/BekkamMallishwari" target="_blank" class="btn-outline">All on GitHub →</a>
+    </div>
+    <div class="projects-grid">
+
+      <!-- Project 1 — Morphing Blobs -->
+      <div class="project-card reveal">
+        <div class="proj-preview">
+          <div class="anim-blobs">
+            <div class="blob-anim"
+              style="width:120px;height:120px;background:rgba(45,106,79,0.15);top:10%;left:10%;--tx:30px;--ty:-20px;--d:5s;--dl:0s;">
+            </div>
+            <div class="blob-anim"
+              style="width:80px;height:80px;background:rgba(212,168,67,0.2);top:50%;left:60%;--tx:-20px;--ty:15px;--d:6s;--dl:0.5s;">
+            </div>
+            <span class="proj-emoji-center">🌐</span>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-tags"><span class="ptag">React</span><span class="ptag">Node.js</span><span
+              class="ptag">MongoDB</span></div>
+          <h3 class="proj-title">Campus Connect</h3>
+          <p class="proj-desc">A social platform for college students to share notes and find study groups.</p>
+          <div class="proj-links">
+            <a href="https://github.com/BekkamMallishwari/campus-connect" target="_blank" class="proj-link">⌥ GitHub →</a>
+            <a href="https://campus-connect-demo.netlify.app/" target="_blank" class="proj-link demo">↗ Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 — Orbit -->
+      <div class="project-card reveal">
+        <div class="proj-preview">
+          <div class="anim-orbit">
+            <div class="orbit-ring" style="width:100px;height:100px;transform:translate(-50%,-50%);--os:8s;">
+              <div class="orbit-planet" style="width:10px;height:10px;"></div>
+            </div>
+            <div class="orbit-ring"
+              style="width:150px;height:150px;transform:translate(-50%,-50%);--os:14s;animation-direction:reverse;">
+              <div class="orbit-planet" style="width:7px;height:7px;background:var(--accent3);"></div>
+            </div>
+            <div class="orbit-center"></div>
+            <span class="proj-emoji-center"
+              style="font-size:1.4rem;background:var(--surface);border-radius:50%;padding:0.3rem;">🤖</span>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">FastAPI</span><span
+              class="ptag">OpenAI</span></div>
+          <h3 class="proj-title">StudyBot AI</h3>
+          <p class="proj-desc">AI-powered chatbot that answers academic questions and generates quizzes from PDFs.</p>
+          <div class="proj-links">
+            <a href="https://github.com/BekkamMallishwari/studybot-ai" target="_blank" class="proj-link">⌥ GitHub →</a>
+            <a href="https://studybot-ai-demo.herokuapp.com/" target="_blank" class="proj-link demo">↗ Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 — Weather App -->
+      <div class="project-card reveal">
+        <div class="proj-preview">
+          <div class="anim-weather">
+            <div class="weather-sun" style="top:20%;left:20%;"></div>
+            <div class="weather-cloud" style="top:40%;left:50%;"></div>
+            <div class="weather-rain" style="top:60%;left:30%;">
+              <div class="rain-drop"></div>
+              <div class="rain-drop"></div>
+              <div class="rain-drop"></div>
+            </div>
+            <span class="proj-emoji-center">🌤️</span>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-tags"><span class="ptag">React</span><span class="ptag">OpenWeather API</span><span
+              class="ptag">CSS Animations</span></div>
+          <h3 class="proj-title">WeatherWise App</h3>
+          <p class="proj-desc">Real-time weather app with location-based forecasts, animated weather icons, and 7-day predictions.</p>
+          <div class="proj-links">
+            <a href="https://github.com/BekkamMallishwari/weather-app" target="_blank" class="proj-link">⌥ GitHub →</a>
+            <a href="https://weatherwise-demo.netlify.app/" target="_blank" class="proj-link demo">↗ Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 — Job Seeker App -->
+      <div class="project-card reveal">
+        <div class="proj-preview">
+          <div class="anim-job">
+            <div class="job-building" style="left:10%;bottom:0;"></div>
+            <div class="job-person" style="left:40%;bottom:20%;"></div>
+            <div class="job-resume" style="left:70%;top:30%;"></div>
+            <span class="proj-emoji-center">💼</span>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-tags"><span class="ptag">MERN Stack</span><span class="ptag">JWT Auth</span><span
+              class="ptag">Job Search API</span></div>
+          <h3 class="proj-title">JobQuest Platform</h3>
+          <p class="proj-desc">Full-stack job search platform with resume builder, application tracking, and personalized job recommendations.</p>
+          <div class="proj-links">
+            <a href="https://github.com/TanushreeHarika/Job-searching-AI" target="_blank" class="proj-link">⌥ GitHub →</a>
+            <a href="https://jobquest-platform.herokuapp.com/" target="_blank" class="proj-link demo">↗ Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 — Floating Particles -->
+      <div class="project-card reveal">
+        <div class="proj-preview">
+          <div class="anim-particles">
+            <div class="p-dot" style="width:8px;height:8px;top:25%;left:20%;--pd:3.5s;--pdd:0s;--px:20px;--py:-18px;">
+            </div>
+            <div class="p-dot" style="width:5px;height:5px;top:60%;left:55%;--pd:4s;--pdd:0.4s;--px:-14px;--py:12px;">
+            </div>
+            <div class="p-dot"
+              style="width:11px;height:11px;top:15%;left:70%;--pd:5s;--pdd:0.8s;--px:8px;--py:16px;background:var(--warm);">
+            </div>
+            <div class="p-dot" style="width:6px;height:6px;top:70%;left:30%;--pd:3s;--pdd:0.2s;--px:-10px;--py:-20px;">
+            </div>
+            <span class="proj-emoji-center">🔐</span>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-tags"><span class="ptag">Java</span><span class="ptag">Spring Boot</span><span
+              class="ptag">MySQL</span></div>
+          <h3 class="proj-title">SecureAuth System</h3>
+          <p class="proj-desc">Full-stack auth with JWT tokens, OAuth2, RBAC and email verification.</p>
+          <div class="proj-links">
+            <a href="https://github.com/BekkamMallishwari/secureauth-system" target="_blank" class="proj-link">⌥ GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6 — Terminal Typing -->
+      <div class="project-card reveal">
+        <div class="proj-preview">
+          <div class="anim-typing">
+            <div class="typing-block">
+              <span class="typing-line" style="color:var(--muted);">$ python train.py</span>
+              <span class="typing-line" style="color:var(--accent);">Epoch 1/10: loss=0.43</span>
+              <span class="typing-line" style="color:var(--accent);">Epoch 5/10: loss=0.18</span>
+              <span class="typing-line" style="color:var(--warm);">Accuracy: 94.7% ✓</span>
+            </div>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">TensorFlow</span><span
+              class="ptag">OpenCV</span></div>
+          <h3 class="proj-title">Face Mask Detector</h3>
+          <p class="proj-desc">CNN-based real-time face mask detection with 94.7% accuracy, deployed as Flask app.</p>
+          <div class="proj-links">
+            <a href="https://github.com/BekkamMallishwari/face-mask-detector" target="_blank" class="proj-link">⌥ GitHub →</a>
+            <a href="https://face-mask-detector-demo.herokuapp.com/" target="_blank" class="proj-link demo">↗ Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <p class="section-label reveal">Achievements</p>
+    <h2 class="section-title reveal">Certifications &amp; <em>Awards</em></h2>
+    <div class="certs-grid">
+
+      <div class="cert-card reveal">
+        <div class="cert-icon">🏆</div>
+        <div class="cert-info">
+          <p class="cert-name">Hackathon Participation</p>
+          <p class="cert-issuer">KL University, Bachupally</p>
+          <p class="cert-date">2026</p>
+          <a href="https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/eb688dc8-136f-491d-bf54-64c42a8e845b.jpg" target="_blank" style="display:inline-block; margin-top:0.5rem; font-size:0.9rem; color:var(--accent); text-decoration:none; font-weight:500;">View Certificate →</a>
+        </div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-icon">🎓</div>
+        <div class="cert-info">
+          <p class="cert-name">Cambridge English Certificate</p>
+          <p class="cert-issuer">Cambridge University</p>
+          <p class="cert-date">2025</p>
+          <a href="cambridge-desktop.pdf" target="_blank" style="display:inline-block; margin-top:0.5rem; font-size:0.9rem; color:var(--accent); text-decoration:none; font-weight:500;">View Certificate →</a>
+        </div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-icon">🎓</div>
+        <div class="cert-info">
+          <p class="cert-name">NPTEL Certification</p>
+          <p class="cert-issuer">NPTEL IIT Kharagpur</p>
+          <p class="cert-date">2025</p>
+          <a href="nptel.jpg" target="_blank" style="display:inline-block; margin-top:0.5rem; font-size:0.9rem; color:var(--accent); text-decoration:none; font-weight:500;">View Certificate →</a>
+        </div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-icon">🏆</div>
+        <div class="cert-info">
+          <p class="cert-name">Vignan Institute of Technology and Science Hackathon</p>
+          <p class="cert-issuer">Vignan Institute of Technology and Science</p>
+          <p class="cert-date">2025</p>
+          <a href="vgntHack.pdf.jpeg" target="_blank" style="display:inline-block; margin-top:0.5rem; font-size:0.9rem; color:var(--accent); text-decoration:none; font-weight:500;">View Certificate →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label reveal">Get In Touch</p>
+    <h2 class="section-title reveal">Let's <em>Talk</em></h2>
+    <div class="contact-grid">
+      <div class="reveal-left">
+        <p class="contact-sub">I'm always open to internship opportunities, collaborations, or just a friendly chat
+          about tech. Drop me a message!</p>
+        <div class="contact-info">
+          <div class="cinfo-row"><span class="cinfo-icon">📧</span> bekkammallishwari1209@gmail.com</div>
+          <div class="cinfo-row"><span class="cinfo-icon">📍</span> Hyderabad, Telangana, India</div>
+          <div class="cinfo-row"><span class="cinfo-icon">🎓</span> Vignan Institute of Technology and Science — B.Tech
+            IT, 2028</div>
+          <div class="cinfo-row">
+            <span class="cinfo-icon">💼</span>
+            <a href="https://www.linkedin.com/in/mallishwari-bekkam-90b9a2327/" target="_blank" class="contact-link">LinkedIn
+              Profile →</a>
+          </div>
+          <div class="cinfo-row">
+            <span class="cinfo-icon">🐙</span>
+            <a href="https://github.com/BekkamMallishwari" target="_blank" class="contact-link">GitHub Profile →</a>
+          </div>
+        </div>
+      </div>
+
+<!-- Contact Form — posts to backend /api/contact (or Formspree for GitHub Pages) -->
+      <form id="contactForm" class="contact-form reveal-right" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" id="cf-name" placeholder="Dustin" required />
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" id="cf-email" placeholder="dustin@gmail.com" required />
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea id="cf-message" placeholder="Hey! I'd love to collaborate on..." required></textarea>
+        </div>
+        <div id="cf-status" class="cf-status" style="display:none;"></div>
+        <button type="submit" class="btn-primary" id="cf-btn">Send Message ✉️</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-logo">BM.</span>
+    <span>© 2025 Bekkam Mallishwari. Built with passion ✦</span>
+    <div class="footer-socials">
+      <a href="https://github.com/BekkamMallishwari" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/mallishwari-bekkam-90b9a2327/" target="_blank">LinkedIn</a>
+      <a href="mailto:bekkammallishwari1209@gmail.com">Email</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

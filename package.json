@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-bekkam",
+  "version": "1.0.0",
+  "description": "Bekkam Mallishwari Portfolio",
+  "homepage": "https://BekkamMallishwari.github.io/portfolio-final",
+  "scripts": {
+    "start": "npx serve -s . -l 3000"
+  },
+  "keywords": [],
+  "author": "Bekkam Mallishwari",
+  "license": "MIT"
+}
